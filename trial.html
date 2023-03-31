@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trial.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <div id="calendar"></div>
+    </div>
+
+
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="calender.html">Calender</a>
+        <a href="resources.html">Resources</a>
+        <a href="trial.html">Opportunities</a>
+        <a href="connect.html">Connect</a>
+        <a href="login\signup.html">
+        <button class="signin-button">Sign in with Google</button>
+        </a>
+       </nav>
+
+
+
+
+       <!--
+    Responsive TopNav W3Schools
+  <div class="topnav" id="myTopnav">
+      <a href="home.html">Home</a>
+      <a href="calender.html">Calender</a>
+      <a href="#resources">Resources</a>
+      <a href="#connect">Connect</a>
+      <a href="opportunities.html">Opportunities</a>
+      <a href="login/signup.html">LogIn/SignUp</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
+-->
+        <!-- P R O F I L E   S E C T I O N -->
+
+        <div class = "profile">
+          <h3>
+          <img src="https://img.freepik.com/free-icon/user-image-with-black-background_318-34564.jpg" width="25">&nbsp;Profile
+          </h3>
+          <div class="profile_detail">
+            <h5>Name: </h5>
+            <h5>Qualification: </h5>
+          </div>
+        </div> 
+
+        
+
+        <!--S E A R C H  A N D   F I L T E R S-->
+
+        <div class="search-wrapper">
+            <div class="search-box">
+                <div class="search-card">
+                    <input class="search-input" type="text" placeholder="Job title or keywords">
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+        </div>
+      
+
+        <div class="filter-box">
+          <div class="filter-dropdown">
+              <!--DROPDOWN FILTER FOR EVENT-->
+
+                  <select class="filter-select" id="event" name="event">
+                       <option>Event</option>
+                       <option value="hackathon">Hackathon</option>
+                       <option value="internship">Internship</option>
+                       <option value="job">Job</option>
+                  </select>
+            
+              <!--FILTER FOR EDUCATION QUALIFICATION-->
+              
+                  <select class="filter-select" id="education" name="education">
+                      <option>Education</option>
+                       <option value="1year">I Year</option>
+                       <option value="2year">II Year</option>
+                       <option value="3year">III Year</option>
+                       <option value="4year">IV Year</option>
+                       <option value="graduate">Graduate</option>
+                  </select>
+             
+              <!--FILTER FOR MODE OF EVENT-->
+
+                  <select class="filter-select" id="mode" name="mode">
+                       <option>Mode</option>
+                       <option value="offline">Offline</option>
+                       <option value="online">Online</option>
+                  </select>
+              </h6>
+          </div>
+          <div class="filter-chosen">
+              <div class="chosen-card">
+                  Hackathon <i class="fas fa-times-circle"></i>
+              </div>
+
+              <div class="chosen-card">
+                  II Year<i class="fas fa-times-circle"></i>
+              </div>
+
+              <div class="chosen-card">
+                  Online<i class="fas fa-times-circle"></i>
+              </div>
+          </div>
+      </div>
+
+      
+        <!-- J O B   L I S T I N G -->
+
+        <section class="job-list" id="jobs">
+          <div class="job-card">
+              <div class="job-name">
+                  <img class="job-profile" src="images\Google-logo.png">
+                  <div class="job-detail">
+                      <h4>Google</h4>
+                      <h3>Software Developer</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, amet.</p>
+                  </div>
+              </div>
+              <div class="job-level">
+                  <a class="label-a" href="#">Python</a>
+                  <a class="label-b" href="#">Machine Learnig</a>
+              </div>
+              <div class="job-posted">
+                  Posted 2 mins ago
+              </div>
+          </div>
+
+
+
+          <div class="job-card">
+              <div class="job-name">
+                  <img class="job-profile" src="images\Youtube_logo.png">
+                  <div class="job-detail">
+                      <h4>Youtube</h4>
+                      <h3>UI UX Designer</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, amet.</p>
+                  </div>
+              </div>
+              <div class="job-level">
+                  <a class="label-a" href="#">HTML</a>
+                  <a class="label-b" href="#">CSS</a>
+                  <a class="label-c" href="#">JavaScript</a>
+              </div>
+              <div class="job-posted">
+                  Posted an hour ago
+              </div>
+          </div>
+
+
+
+          <div class="job-card">
+              <div class="job-name">
+                  <img class="job-profile" src="images\Microsoft-logo.png">
+                  <div class="job-detail">
+                      <h4>Microsoft</h4>
+                      <h3>Microsoft Engage</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, amet.</p>
+                  </div>
+              </div>
+              <div class="job-level">
+                  <a class="label-a" href="#">Project based</a>
+                  <a class="label-b" href="#">Machine-Learning</a>
+              </div>
+              <div class="job-posted">
+                  Posted 2 days ago
+              </div>
+          </div>
+
+
+
+          <div class="job-card">
+              <div class="job-name">
+                  <img class="job-profile" src="images\Flipkart-logo.png">
+                  <div class="job-detail">
+                      <h4>Flipkart</h4>
+                      <h3>Flipkart Runway</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, amet.</p>
+                  </div>
+              </div>
+              <div class="job-level">
+                  <a class="label-a" href="#">Hackathon</a>
+              </div>
+              <div class="job-posted">
+                  Posted a week ago
+              </div>
+          </div>
+      </section>
+
+      <!--B L O G-->
+      <section class="blog" id="blog">
+        <h1 class="section-title">Career Advices</h1>
+        <p>Learn more career tips from company's recruiter</p>
+        
+       
+            <div class="blog-wrapper">
+               <div class="blog-card">
+                    <img class="blog-image" src="enjoyWork-photo.webp">
+                        <span>11 Jan 2023</span>
+                        <h4>How to enjoy your work</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <hr class="divider">
+                        <a href="#" class="blog-more">Read more</a>
+                    </div>
+                </div> 
+                <div class="blog-card">
+                    <img class="blog-image" src="interview_photo.jpg">
+                    <div class="blog-detail">
+                        <span>24 Oct 2022</span>
+                        <h4>10 Tips for technical interview</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, minus?</p>
+                        <hr class="divider">
+                        <a href="#" class="blog-more">Read more</a>
+                    </div>
+                </div>
+               <div class="blog-card">
+                    <img class="blog-image" src="timeManagement.jpg">
+                    <div class="blog-detail">
+                        <span>30 Dec 2022</span>
+                        <h4>Managing Time Effectively</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, non!</p>
+                    </div>
+                </div>
+            
+            </div>
+       
+      </section>
+      <footer>
+        <div class="footer-wrapper">
+            <h3>OPPORTUNITY</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptas fugiat molestias!</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Explore</h4>
+            <a href="#">Top Companies</a>
+            <a href="#">Terms of Services</a>
+            <a href="#">Careers</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>About</h4>
+            <a href="#">FAQ</a>
+            <a href="#">Get Inspired</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Support</h4>
+            <a href="#">Community</a>
+            <a href="#">Invite a Friend</a>
+            <a href="#">Event</a>
+        </div>
+      </footer>
+
+
+</body>
+</html>

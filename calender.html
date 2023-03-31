@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Event Calendar - DEMO</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.min.css">
+        <link rel="stylesheet" href="style-midnight-blue.css">
+    </head>
+    <body>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="calender.html">Calender</a>
+            <a href="resources.html">Resources</a>
+            <a href="trial.html">Opportunities</a>
+            <a href="connect.html">Connect</a>
+            <a href="login\signup.html">
+            <button class="signin-button">Sign in with Google</button>
+            </a>
+           </nav>
+
+           
+        <div class="hero">
+            <div id="calendar"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+        <script src="style-jsmin.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#calendar').evoCalendar({
+                    theme: "Midnight Blue",
+                    calendarEvents: [
+                        {
+                            id: 'event1', // Event's ID (required)
+                            name: "New Year", // Event name (required)
+                            date: "January/1/2023", // Event date (required)
+                            type: "holiday", // Event type (required)
+                            everyYear: true // Same event every year (optional)
+                        },
+                        {
+                            name: "Vacation Leave",
+                            badge: "02/13 - 02/15", // Event badge (optional)
+                            date: ["February/13/2023", "February/15/2023"], // Date range
+                            description: "Vacation leave for 3 days.", // Event description (optional)
+                            type: "event",
+                            color: "#63d867" // Event custom color (optional)
+                        }
+                    ]
+                })
+            })
+        </script>
+    </body>
+</html>

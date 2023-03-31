@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources.css">
+</head>
+<body>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="calender.html">Calender</a>
+        <a href="resources.html">Resources</a>
+        <a href="trial.html">Opportunities</a>
+        <a href="connect.html">Connect</a>
+        <a href="login\signup.html">
+        <button class="signin-button">Sign in with Google</button>
+        </a>
+       </nav>
+
+
+    <h1 style="color:aliceblue" class="center">Resources </h1>
+    
+    <h1 style="color:aliceblue">Internships and Hirirng Drives</h1>
+    <script>
+
+      function searchTable1() {
+          var input, filter, found, table, tr, td, i, j;
+          input = document.getElementById("myInput1");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable1");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td");
+              for (j = 0; j < td.length; j++) {
+                  if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                      found = true;
+                  }
+              }
+              if (found) {
+                  tr[i].style.display = "";
+                  found = false;
+              } else {
+                  tr[i].style.display = "none";
+              }
+          }
+      }
+      </script>
+    <input id='myInput1' onkeyup='searchTable1()' type='text' placeholder="SEARCH">
+ 
+
+    
+
+    <table class="center" id="myTable1">
+        <tr>
+          <th>Competition</th>
+          <th>Rounds </th>
+          <th>Questions</th>
+        </tr>
+        <tr>
+          <td>Flipkart Grid</td>
+          <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link1</a></td>
+          <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link2</a></td>
+        </tr>
+        <tr>
+          <td>Microsoft Engage</td>
+          <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+          <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+        </tr>
+        <tr>
+            <td>JP Morgan Code for Good</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Accenture Hack Diva</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Flipkart Girls Wanna Code 4.0</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>STEP +Student Training in Engineering Program- Google</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Flipkart Runway</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+      </table>
+    
+    <h1 style="color:aliceblue">Companies</h1>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+      function searchTable2() {
+          var input, filter, found, table, tr, td, i, j;
+          input = document.getElementById("myInput2");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable2");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td");
+              for (j = 0; j < td.length; j++) {
+                  if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                      found = true;
+                  }
+              }
+              if (found) {
+                  tr[i].style.display = "";
+                  found = false;
+              } else {
+                  tr[i].style.display = "none";
+              }
+          }
+      }
+      </script>
+    <input id='myInput2' onkeyup='searchTable2()' type='text' placeholder="SEARCH" >
+    <table class="center" id="myTable2">
+        <tr>
+          <th>Company</th>
+          <th>Websites </th>
+          <th>Videos</th>
+        </tr>
+        <tr>
+          <td>Microsoft</td>
+          <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link1</a></td>
+          <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">LINK-A </a><br>
+            <a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">LINK-B </a></td>
+        </tr>
+        <tr>
+          <td>Amazon</td>
+          <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+          <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+        </tr>
+        <tr>
+            <td>JP Morgan</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Citi</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>DE SHAW</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Atlassian</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Goldman Sachs</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Cohesity</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Deutsche Bank</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Walmart</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Oracle</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>SAP</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Boeing</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Wells Fargo</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Visa</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Mastercard</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Providence</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Gap</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Myntra</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Dell</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Barclays</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td>
+          </tr>
+          <tr>
+            <td>Schlumberger</td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link3</a></td>
+            <td><a href="https://www.geeksforgeeks.org/flipkart-interview-experience-for-sde-1-4/" target="_blank">link4</a></td><br>
+            
+          </tr>
+      </table>
+    
+</body>
+</html>
